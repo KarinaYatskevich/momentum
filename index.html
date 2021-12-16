@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./owfont-regular.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>momentum</title>
+</head>
+<body id="body">
+    <header class="header">
+        <div class="player">
+            <div class="player-controls">
+                <button class="play-prev player-icon"></button>
+                <button class="play player-icon"></button>
+                <button class="play-next player-icon"></button>
+            </div>
+            <ul class="play-list">play list</ul>
+        </div>
+        <div class="weather">
+            <input type="text" class="city" id="city" placeholder="[Enter sity]">
+            <i class="weather-icon owf" id="weather-icon"></i>
+            <div class="weather-error"></div>
+            <div class="description-container">
+                <span class="temperature" id="temperature"></span>
+                <span class="weather-description" id="weather-description"></span>
+            </div>
+            Wind speed:  <div class="wind"></div>
+            Humidity: <div class="humidity"></div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="slider-icons">
+            <button class="slider-prev slider-icon"><img src="./img/svg/slider-prev.svg" alt=""></button>
+            <button class="slider-next slider-icon"><img src="./img/svg/slider-next.svg" alt=""></button>
+        </div>
+        <time class="time"></time>
+        <date class="date"></date>
+        <div class="greeting-container">
+            <span class="greeting"> </span>
+            <input type="text" class="name" placeholder="[Enter name]">
+        </div>
+    </main>
+    <footer class="footer">
+        <button class="change-quote"></button>
+        <div>
+            <div class="quote">"No matter how hard the past, you can always begin again."</div>
+            <div class="author">Buddha</div>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
